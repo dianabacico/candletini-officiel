@@ -125,6 +125,139 @@ footer { background:var(--dark); color:white; padding:2rem 5%; text-align:center
     .cookie-buttons { width:100%; }
     .cookie-buttons button { width:100%; }
 }
+    @media(max-width:768px){
+
+    header{
+        position:relative;
+        padding:1.2rem 5%;
+        flex-direction:column;
+        gap:1rem;
+    }
+
+    .logo{
+        font-size:2.4rem;
+        letter-spacing:4px;
+        text-align:center;
+    }
+
+    nav ul{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:.8rem 1.2rem;
+    }
+
+    nav a{
+        font-size:.9rem;
+        letter-spacing:3px;
+    }
+
+    .cart-btn{
+        padding:.8rem 2.2rem;
+        border-radius:50px;
+    }
+
+    #hero{
+        height:70vh;
+        min-height:520px;
+    }
+
+    .hero-title{
+        font-size:2.7rem;
+        letter-spacing:5px;
+    }
+
+    .hero-subtitle{
+        font-size:1rem;
+        letter-spacing:3px;
+        line-height:1.6;
+    }
+
+    .section-title{
+        font-size:2.3rem;
+        letter-spacing:3px;
+    }
+
+    .produits-grid{
+        grid-template-columns:1fr;
+        gap:1.5rem;
+    }
+
+    .produit-card{
+        height:520px;
+        border-radius:26px;
+    }
+
+    .produit-info h3{
+        font-size:1.7rem;
+    }
+
+    .produit-info p{
+        font-size:1.05rem;
+    }
+
+    .add-btn{
+        min-width:230px;
+        font-size:.85rem;
+    }
+
+    .about-wrapper{
+        flex-direction:column;
+        text-align:center;
+        gap:1.5rem;
+    }
+
+    .about-text{
+        text-align:center;
+    }
+
+    .philo-title{
+        font-size:2rem;
+        letter-spacing:2px;
+    }
+
+    .philo-quote{
+        font-size:1.15rem;
+        line-height:1.6;
+    }
+
+    .about-image{
+        width:260px;
+        flex:auto;
+    }
+
+    .contact-wrapper{
+        grid-template-columns:1fr;
+        gap:1.5rem;
+    }
+
+    .contact-left,
+    .contact-right{
+        padding:1.7rem;
+        border-radius:28px;
+    }
+
+    .contact-left h2,
+    .contact-right h3{
+        font-size:2rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .newsletter-form input{
+        font-size:1.05rem;
+        padding:1.1rem;
+    }
+
+    .contact-info a{
+        font-size:1rem;
+        justify-content:flex-start;
+    }
+
+    .footer-row{
+        gap:1rem;
+    }
+}
 </style>
 </head>
 
