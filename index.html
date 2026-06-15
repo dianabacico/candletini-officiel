@@ -125,7 +125,7 @@ footer { background:var(--dark); color:white; padding:2rem 5%; text-align:center
     .cookie-buttons { width:100%; }
     .cookie-buttons button { width:100%; }
 }
-    @media(max-width:768px){
+@media(max-width:768px){
 
     header{
         position:relative;
@@ -278,9 +278,9 @@ footer { background:var(--dark); color:white; padding:2rem 5%; text-align:center
 
 <section id="hero">
     <div class="hero-slider">
-        <img src="matcha3.PNG" alt="Bougie Candletini" class="slide active">
-        <img src="duo.png" alt="Bougie Candletini" class="slide">
-        <img src="spritz4.jpeg" alt="Bougie Candletini" class="slide">
+        <img src="img/matcha3.PNG" alt="Bougie Candletini" class="slide active">
+        <img src="img/duo.png" alt="Bougie Candletini" class="slide">
+        <img src="img/spritz4.jpeg" alt="Bougie Candletini" class="slide">
     </div>
 
     <div class="hero-overlay"></div>
@@ -300,8 +300,46 @@ footer { background:var(--dark); color:white; padding:2rem 5%; text-align:center
     <div class="produits-grid">
 
         <div class="produit-card">
+    <a href="strawberry-cream-martini.html">
+        <img src="img/martini1.png" alt="Strawberry Cream Martini">
+    </a>
+
+    <div class="produit-info">
+        <h3>Strawberry Cream Martini</h3>
+
+        <p>
+            Une bougie gourmande inspirée d’un cocktail à la fraise,
+            douce, crémeuse et délicatement sucrée.
+        </p>
+
+        <div class="price">25,00 €</div>
+
+        <div class="product-buttons">
+
+            <button class="add-btn"
+            onclick="addToCart(
+                'Strawberry Cream Martini',
+                25,
+                'img/strawberry1.png',
+                'Une bougie gourmande inspirée d’un cocktail à la fraise, douce et crémeuse.',
+                'strawberry-cream-martini.html'
+            )">
+                Ajouter au Panier
+            </button>
+
+            <a href="https://buy.stripe.com/"
+               target="_blank"
+               class="add-btn buy-btn">
+                Acheter maintenant
+            </a>
+
+        </div>
+    </div>
+</div>
+
+        <div class="produit-card">
             <a href="iced-latte.html">
-                <img src="cafe1.jpg" alt="Iced Latte">
+                <img src="img/cafe1.jpg" alt="Iced Latte">
             </a>
             <div class="produit-info">
                 <h3>Iced Latte</h3>
@@ -319,10 +357,31 @@ footer { background:var(--dark); color:white; padding:2rem 5%; text-align:center
                 </div>
             </div>
         </div>
+        <div class="produit-card">
+    <a href="espresso-martini.html">
+        <img src="img/espresso1.png" alt="Espresso Martini">
+    </a>
+
+    <div class="produit-info">
+        <h3>Espresso Martini</h3>
+        <p>Une bougie élégante inspirée d’un cocktail au café, intense et crémeux</p>
+        <div class="price">25,00 €</div>
+
+        <div class="product-buttons">
+            <button class="add-btn" onclick="addToCart('Espresso Martini',25,'img/espresso1.png','Une bougie élégante inspirée d’un cocktail au café, intense et crémeux.','espresso-martini.html')">
+                Ajouter au Panier
+            </button>
+
+            <a href="https://buy.stripe.com/bJeaEQ4rV6Va6ku0JG5c402" target="_blank" class="add-btn buy-btn">
+                Acheter maintenant
+            </a>
+        </div>
+    </div>
+</div>
 
         <div class="produit-card">
             <a href="sakura-cream-latte.html">
-                <img src="rose1.png" alt="Sakura Cream Latte">
+                <img src="img/rose1.png" alt="Sakura Cream Latte">
             </a>
             <div class="produit-info">
                 <h3>Sakura Cream Latte</h3>
@@ -343,7 +402,7 @@ footer { background:var(--dark); color:white; padding:2rem 5%; text-align:center
 
         <div class="produit-card">
             <a href="matcha-latte.html">
-                <img src="matcha1.png" alt="Matcha Latte">
+                <img src="img/matcha1.png" alt="Matcha Latte">
             </a>
             <div class="produit-info">
                 <h3>Matcha Latte</h3>
@@ -364,7 +423,7 @@ footer { background:var(--dark); color:white; padding:2rem 5%; text-align:center
 
         <div class="produit-card">
             <a href="aperol-spritz.html">
-                <img src="spritz4.jpeg" alt="Aperol Spritz">
+                <img src="img/spritz4.jpeg" alt="Aperol Spritz">
             </a>
             <div class="produit-info">
                 <h3>Aperol Spritz</h3>
@@ -383,6 +442,43 @@ footer { background:var(--dark); color:white; padding:2rem 5%; text-align:center
             </div>
         </div>
 
+
+<div class="produit-card">
+    <a href="matcha-cloud-martini.html">
+        <img src="img/matini2.png" alt="Matcha Cloud Martini">
+    </a>
+
+    <div class="produit-info">
+        <h3>Matcha Cloud Martini</h3>
+
+        <p>
+            Une création délicate inspirée d’un matcha latte aérien et crémeux.
+        </p>
+
+        <div class="price">25,00 €</div>
+
+        <div class="product-buttons">
+
+            <button class="add-btn"
+            onclick="addToCart(
+                'Matcha Cloud Martini',
+                25,
+                'img/matcha-cloud1.png',
+                'Une création délicate inspirée d’un matcha latte aérien et crémeux.',
+                'matcha-cloud-martini.html'
+            )">
+                Ajouter au Panier
+            </button>
+
+            <a href="https://buy.stripe.com/"
+               target="_blank"
+               class="add-btn buy-btn">
+                Acheter maintenant
+            </a>
+
+        </div>
+    </div>
+</div>
     </div>
 </section>
 
@@ -403,7 +499,7 @@ footer { background:var(--dark); color:white; padding:2rem 5%; text-align:center
         </div>
 
         <div class="about-image">
-            <img src="duo.png" alt="Candletini">
+            <img src="img/duo.png" alt="Candletini">
         </div>
     </div>
 
@@ -428,20 +524,18 @@ footer { background:var(--dark); color:white; padding:2rem 5%; text-align:center
 
             <p>Soyez informé(e) des nouvelles créations Candletini.</p>
 
-           <form class="newsletter-form"
+            <form class="newsletter-form"
 action="https://formspree.io/f/mkoyqllo"
 method="POST">
                 <input type="email" name="email" placeholder="Votre email" required>
+                
                 <button type="submit">S’abonner</button>
             </form>
 
             <div class="contact-info">
                 <a href="tel:+33766889162"><i class="fas fa-phone"></i> +33 7 66 88 91 62</a>
                 <a href="mailto:candleessencee@gmail.com"><i class="fas fa-envelope"></i> candleessencee@gmail.com</a>
-               <a href="https://instagram.com/candletini_" target="_blank">
-    <i class="fab fa-instagram"></i>
-    @candletini_
-</a>
+                <a href="https://instagram.com/candleessence___" target="_blank"><i class="fab fa-instagram"></i> @candleessence___</a>
             </div>
         </div>
     </div>
