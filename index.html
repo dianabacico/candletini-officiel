@@ -317,22 +317,23 @@ footer { background:var(--dark); color:white; padding:2rem 5%; text-align:center
 
         <div class="product-buttons">
 
-            <button class="add-btn"
-            onclick="addToCart(
-                'Strawberry Cream Martini',
-                25,
-                'strawberry1.png',
-                'Une bougie gourmande inspirée d’un cocktail à la fraise, douce et crémeuse.',
-                'strawberry-cream-martini.html'
-            )">
-                Ajouter au Panier
-            </button>
+         <button class="add-btn"
+onclick="event.stopPropagation(); addToCart(
+    'Strawberry Cream Martini',
+    25,
+    'martini1.png',
+    'Une bougie gourmande inspirée d’un cocktail à la fraise, douce et crémeuse.',
+    'strawberry-cream-martini.html'
+)">
+    Ajouter au Panier
+</button>
 
-            <a href="https://buy.stripe.com/dRmbIUe2v5R67oy2RO5c404"
-               target="_blank"
-               class="add-btn buy-btn">
-                Acheter maintenant
-            </a>
+          <a href="https://buy.stripe.com/dRmbIUe2v5R67oy2RO5c404"
+   target="_blank"
+   class="add-btn buy-btn"
+   onclick="event.stopPropagation();">
+    Acheter maintenant
+</a>
 
         </div>
     </div>
