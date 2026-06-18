@@ -349,11 +349,11 @@ onclick="event.stopPropagation(); addToCart(
                 <div class="price">20,00 €</div>
 
                 <div class="product-buttons">
-                    <button class="add-btn" onclick="addToCart('Iced Latte',25,'cafe1.jpg','Un café glacé doux, crémeux et élégant.','Iced-Latte.html')">
+                    <button class="add-btn" onclick="event.stopPropagation();addToCart('Iced Latte',25,'cafe1.jpg','Un café glacé doux, crémeux et élégant.','Iced-Latte.html')">
                         Ajouter au Panier
                     </button>
 
-                    <a href="https://buy.stripe.com/4gMeV64rV1AQbEO1NK5c409" target="_blank" class="add-btn buy-btn">
+                    <a href="https://buy.stripe.com/4gMeV64rV1AQbEO1NK5c409" target="_blank" class="add-btn buy-btn"onclick="event.stopPropagation();" >
                         Acheter maintenant
                     </a>
                 </div>
