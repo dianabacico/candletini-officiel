@@ -339,30 +339,30 @@ onclick="event.stopPropagation(); addToCart(
     </div>
 </div>
 
-        <div class="produit-card">
-            <a href="iced-latte.html">
-                <img src="cafe1.jpg" alt="Iced Latte">
+      <div class="produit-card" onclick="window.location.href='iced-latte.html'">
+    <img src="cafe1.jpg" alt="Iced Latte">
+
+    <div class="produit-info">
+        <h3>Iced Latte</h3>
+        <p>Un café glacé doux, crémeux et élégant</p>
+        <div class="price">20,00 €</div>
+
+        <div class="product-buttons">
+            <button class="add-btn" onclick="event.stopPropagation(); addToCart('Iced Latte',25,'cafe1.jpg','Un café glacé doux, crémeux et élégant.','iced-latte.html')">
+                Ajouter au Panier
+            </button>
+
+            <a href="https://buy.stripe.com/4gMeV64rV1AQbEO1NK5c409"
+               target="_blank"
+               class="add-btn buy-btn"
+               onclick="event.stopPropagation();">
+                Acheter maintenant
             </a>
-            <div class="produit-info">
-                <h3>Iced Latte</h3>
-                <p>Un café glacé doux, crémeux et élégant</p>
-                <div class="price">20,00 €</div>
-
-                <div class="product-buttons">
-                    <button class="add-btn" onclick="event.stopPropagation();addToCart('Iced Latte',25,'cafe1.jpg','Un café glacé doux, crémeux et élégant.','Iced-Latte.html')">
-                        Ajouter au Panier
-                    </button>
-
-                    <a href="https://buy.stripe.com/4gMeV64rV1AQbEO1NK5c409" target="_blank" class="add-btn buy-btn"onclick="event.stopPropagation();" >
-                        Acheter maintenant
-                    </a>
-                </div>
+        </div>
             </div>
         </div>
-        <div class="produit-card">
-    <a href="espresso-martini.html">
-        <img src="espresso1.png" alt="Espresso Martini">
-    </a>
+       <div class="produit-card" onclick="window.location.href='espresso-martini.html'">
+    <img src="espresso1.png" alt="Espresso Martini">
 
     <div class="produit-info">
         <h3>Espresso Martini</h3>
@@ -370,85 +370,91 @@ onclick="event.stopPropagation(); addToCart(
         <div class="price">20,00 €</div>
 
         <div class="product-buttons">
-            <button class="add-btn" onclick="addToCart('Espresso Martini',25,'espresso1.png','Une bougie élégante inspirée d’un cocktail au café, intense et crémeux.','espresso-martini.html')">
+            <button class="add-btn" onclick="event.stopPropagation(); addToCart('Espresso Martini',25,'espresso1.png','Une bougie élégante inspirée d’un cocktail au café, intense et crémeux.','espresso-martini.html')">
                 Ajouter au Panier
             </button>
 
-            <a href="https://buy.stripe.com/fZu14ge2v6Va4cmdws5c405" target="_blank" class="add-btn buy-btn">
+            <a href="https://buy.stripe.com/fZu14ge2v6Va4cmdws5c405"
+               target="_blank"
+               class="add-btn buy-btn"
+               onclick="event.stopPropagation();">
                 Acheter maintenant
             </a>
         </div>
     </div>
 </div>
 
-        <div class="produit-card">
-            <a href="sakura-cream-latte.html">
-                <img src="rose1.png" alt="Sakura Cream Latte">
+<div class="produit-card" onclick="window.location.href='sakura-cream-latte.html'">
+    <img src="rose1.png" alt="Sakura Cream Latte">
+
+    <div class="produit-info">
+        <h3>Sakura Cream Latte</h3>
+        <p>Fleurs de cerisier, crème vanillée et douceur</p>
+        <div class="price">22,00 €</div>
+
+        <div class="product-buttons">
+            <button class="add-btn" onclick="event.stopPropagation(); addToCart('Sakura Cream Latte',25,'rose1.png','Fleurs de cerisier, crème vanillée et douceur.','sakura-cream-latte.html')">
+                Ajouter au Panier
+            </button>
+
+            <a href="https://buy.stripe.com/3cI9AM0bF1AQbEO1NK5c407"
+               target="_blank"
+               class="add-btn buy-btn"
+               onclick="event.stopPropagation();">
+                Acheter maintenant
             </a>
-            <div class="produit-info">
-                <h3>Sakura Cream Latte</h3>
-                <p>Fleurs de cerisier, crème vanillée et douceur</p>
-                <div class="price">22,00 €</div>
-
-                <div class="product-buttons">
-                    <button class="add-btn" onclick="addToCart('Sakura Cream Latte',25,'rose1.png','Fleurs de cerisier, crème vanillée et douceur.','sakura-cream-latte.html')">
-                        Ajouter au Panier
-                    </button>
-
-                    <a href="https://buy.stripe.com/3cI9AM0bF1AQbEO1NK5c407" target="_blank" class="add-btn buy-btn">
-                        Acheter maintenant
-                    </a>
-                </div>
-            </div>
         </div>
+    </div>
+</div>
 
-        <div class="produit-card">
-            <a href="matcha-latte.html">
-                <img src="matcha1.png" alt="Matcha Latte">
+<div class="produit-card" onclick="window.location.href='matcha-latte.html'">
+    <img src="matcha1.png" alt="Matcha Latte">
+
+    <div class="produit-info">
+        <h3>Matcha Latte</h3>
+        <p>Matcha crémeux, vanille douce et élégance</p>
+        <div class="price">20,00 €</div>
+
+        <div class="product-buttons">
+            <button class="add-btn" onclick="event.stopPropagation(); addToCart('Matcha Latte',25,'matcha1.png','Matcha crémeux, vanille douce et élégance.','matcha-latte.html')">
+                Ajouter au Panier
+            </button>
+
+            <a href="https://buy.stripe.com/aFa9AMcYr6Va38icso5c408"
+               target="_blank"
+               class="add-btn buy-btn"
+               onclick="event.stopPropagation();">
+                Acheter maintenant
             </a>
-            <div class="produit-info">
-                <h3>Matcha Latte</h3>
-                <p>Matcha crémeux, vanille douce et élégance</p>
-                <div class="price">20,00 €</div>
-
-                <div class="product-buttons">
-                    <button class="add-btn" onclick="addToCart('Matcha Latte',25,'matcha1.png','Matcha crémeux, vanille douce et élégance.','matcha-latte.html')">
-                        Ajouter au Panier
-                    </button>
-
-                    <a href="https://buy.stripe.com/aFa9AMcYr6Va38icso5c408" target="_blank" class="add-btn buy-btn">
-                        Acheter maintenant
-                    </a>
-                </div>
-            </div>
         </div>
+    </div>
+</div>
 
-        <div class="produit-card">
-            <a href="aperol-spritz.html">
-                <img src="spritz4.jpeg" alt="Aperol Spritz">
+<div class="produit-card" onclick="window.location.href='aperol-spritz.html'">
+    <img src="spritz4.jpeg" alt="Aperol Spritz">
+
+    <div class="produit-info">
+        <h3>Aperol Spritz</h3>
+        <p>Une création solaire, fraîche et pétillante</p>
+        <div class="price">25,00 €</div>
+
+        <div class="product-buttons">
+            <button class="add-btn" onclick="event.stopPropagation(); addToCart('Aperol Spritz',25,'spritz4.jpeg','Une création solaire, fraîche et pétillante.','aperol-spritz.html')">
+                Ajouter au Panier
+            </button>
+
+            <a href="https://buy.stripe.com/28EaEQ8Ib1AQ7oybok5c400"
+               target="_blank"
+               class="add-btn buy-btn"
+               onclick="event.stopPropagation();">
+                Acheter maintenant
             </a>
-            <div class="produit-info">
-                <h3>Aperol Spritz</h3>
-                <p>Une création solaire, fraîche et pétillante</p>
-                <div class="price">25,00 €</div>
-
-                <div class="product-buttons">
-                    <button class="add-btn" onclick="addToCart('Aperol Spritz',25,'spritz4.jpeg','Une création solaire, fraîche et pétillante.','aperol-spritz.html')">
-                        Ajouter au Panier
-                    </button>
-
-                    <a href="https://buy.stripe.com/28EaEQ8Ib1AQ7oybok5c400" target="_blank" class="add-btn buy-btn">
-                        Acheter maintenant
-                    </a>
-                </div>
-            </div>
         </div>
+    </div>
+</div>
 
-
-<div class="produit-card">
-    <a href="matcha-cloud-martini.html">
-        <img src="matini2.png" alt="Matcha Cloud Martini">
-    </a>
+<div class="produit-card" onclick="window.location.href='matcha-cloud-martini.html'">
+    <img src="matini2.png" alt="Matcha Cloud Martini">
 
     <div class="produit-info">
         <h3>Matcha Cloud Martini</h3>
@@ -460,9 +466,8 @@ onclick="event.stopPropagation(); addToCart(
         <div class="price">20,00 €</div>
 
         <div class="product-buttons">
-
             <button class="add-btn"
-            onclick="addToCart(
+            onclick="event.stopPropagation(); addToCart(
                 'Matcha Cloud Martini',
                 25,
                 'img/matcha-cloud1.png',
@@ -474,10 +479,10 @@ onclick="event.stopPropagation(); addToCart(
 
             <a href="https://buy.stripe.com/3cI8wI3nR2EU6ku6405c406"
                target="_blank"
-               class="add-btn buy-btn">
+               class="add-btn buy-btn"
+               onclick="event.stopPropagation();">
                 Acheter maintenant
             </a>
-
         </div>
     </div>
 </div>
